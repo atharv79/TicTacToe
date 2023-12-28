@@ -1,6 +1,5 @@
  let boxes = document.querySelectorAll(".box");
  let resetButton = document.querySelector("#reset-button");
-
  let newGameButton = document.querySelector("#newGame-button");
  let msgContainer = document.querySelector(".msg-container");
  let msg = document.querySelector("#msg"); 
@@ -79,7 +78,6 @@
     disableBoxes();
  };
 
-
  //pattern is a arrray
  const checkwinner = () => {
 
@@ -100,3 +98,4 @@
  
  newGameButton.addEventListener("click", resetGame);
  resetButton.addEventListener("click", resetGame);
+ 
